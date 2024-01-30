@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="post" onsubmit="return formSubmit()">
+        <label>
+            Name :-
+        </label>
+        <input id="uname" type="text" name="name" />
+        <br/>
+        <br/>
+        <label>
+            Email :-
+        </label>
+        <input id="email" type="email" name="email" />
+        <br/>
+        <br/>
+        <label>
+            Contact :-
+        </label>
+        <input id="contact" type="text" name="contact" />
+        <br/>
+        <br/>
+        <label>
+            Age :-
+        </label>
+        <input id="age" type="text" name="age" />
+        <br/>
+        <br/>
+        <label>
+            Image :-
+        </label>
+        <input id="image" type="text" name="path" />
+        <br/>
+        <br/>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+
+    <table border="1" width="1000" align="center" >
+        <thead>
+            <tr>
+                <th>
+                    No.
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Contact
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+
+        </tbody>
+        
+        <button onclick="return clearData()">
+            Clear 
+        </button>
+
+    </table>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

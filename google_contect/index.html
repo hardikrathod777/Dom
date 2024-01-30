@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link href="css.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Contact List</h1>
+    </header>
+
+    <form id="addContactForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="email" placeholder="Email" required>
+        <button type="submit">Add Contact</button>
+    </form>
+
+    <div id="contacts"></div>
+    
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h2>Edit Contact</h2>
+            <input type="text" id="editName" placeholder="Name" required>
+            <input type="text" id="editEmail" placeholder="Email" required>
+            <button id="saveEditBtn">Save Changes</button>
+            <button id="closeEditBtn">Close</button>
+        </div>
+    </div>
+    <script src="js/sctipr.js"></script>
+</body>
+</html>

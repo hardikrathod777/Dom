@@ -1,0 +1,72 @@
+.u_name{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.course{
+    margin-bottom: 15px;
+}
+
+.gender{
+    margin-bottom: 15px;
+}
+
+.phone{
+    margin-bottom: 15px;
+}
+
+.email{
+    margin-bottom: 15px;
+}
+body{
+    background-color: #F5F5F9;
+}
+input{
+    background-color: transparent;
+    border: 1px solid #696CFF;
+    border-radius: 10px;
+}
+#ucourse{
+    background-color: transparent;
+    border: 1px solid #696CFF;
+    border-radius: 10px;
+}
+label{
+    color: #696CFF;
+}
+
+.button{
+    margin-bottom: 20px;
+    border: 2px solid #696CFF;
+    color: #fff;
+    background-color: #696CFF;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.main_div{
+    border: 1px solid #696CFF;
+    background-color: #E7E7FF;
+    border-radius: 30px;
+    margin: 50px 0px;
+}
+.table-dark{
+    --bs-table-color: #fff;
+    --bs-table-bg: #696cff;
+    --bs-table-striped-bg: #e7e7ef;
+    --bs-table-striped-color: #000;
+}
+.button1{
+    border: 2px solid #696CFF;
+    color: #696CFF;
+    background-color: #E7E7FF;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.button2{
+    border: 2px solid #696CFF;
+    color: #696CFF;
+    background-color: #E7E7FF;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
